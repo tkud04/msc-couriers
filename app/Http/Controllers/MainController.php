@@ -24,20 +24,27 @@ class MainController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function getIndex()
+	public function getIndex(Request $request)
     {
        $user = null;
+	  $req = $request->all();
 
 		if(Auth::check())
 		{
 			$user = Auth::user();
 		}
+		$params = ['user','signals','plugins'];
+
+		if(isset($req['xx']))
+		{
+			$xx = 1;
+          array_push($params,'xx');
+		}
 
 		
 		$signals = $this->helpers->signals;
         $plugins = $this->helpers->getPlugins();
-        $courses = [];
-        return view('index',compact(['user','plugins','signals','plugins']));
+        return view('index',compact($params));
     }
 	
 
