@@ -306,7 +306,7 @@ $void = "javascript:void(0)";
                                     <div class="widget">
                                         <div class="about-widget">
                                             <div class="logo">
-                                                <a itemprop="url" href="{{url('/')}}" title=""><img itemprop="image" src="images/resource/logo-2.png" class="logoo" alt="" /></a>
+                                                <a itemprop="url" href="{{url('/')}}" title=""><img itemprop="image" src="images/logo.jpeg" class="logoo" alt="" /></a>
                                             </div>
                                             <p itemprop="description">Vestibulum id ligula porta felis euismod sem per. Aenean eu leo quam. Pellen tesque orn are sem lacinia quam venenatis. Fusce dap ibus, tellus ac cursus commodo ut fermentu massa. mentum sit amet risus.</p>
                                             <ul class="social-btn">
