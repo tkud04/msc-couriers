@@ -402,7 +402,7 @@ $subject = $data['subject'];
 		   
 		   function getTNum()
 		   {
-			   return "DGS".rand(1999,9999999);
+			   return "MSC".rand(1999,9999999);
 		   }
 		   
 		     function addTracking($data)
