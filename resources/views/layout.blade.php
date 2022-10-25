@@ -132,7 +132,7 @@ $void = "javascript:void(0)";
                 <div class="container">
                     <div class="responsive-logo">
                         <div class="logo">
-                            <a itemprop="url" href="{{url('/')}}" title=""><img itemprop="image" src="images/logo.jpeg" alt="" /></a>
+                            <a itemprop="url" href="{{url('/')}}" title=""><img itemprop="image" src="images/logo.jpeg" width='50' height='50' alt="" /></a>
                         </div>
                     </div>
                     <span class="responsive-btn"><i class="fa fa-list"></i></span>
