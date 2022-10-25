@@ -68,7 +68,7 @@ new google.translate.TranslateElement({pageLanguage: 'en', layout: google.transl
             <div class="logo-menu-sec">
                 <div class="logo-menu">
                     <div class="logo">
-                        <a itemprop="url" href="{{url('/')}}" title=""><img itemprop="image" src="images/logo.jpeg" class="logooo" alt="" /></a>
+                        <a itemprop="url" href="{{url('/')}}" title=""><img itemprop="image" src="images/logo.jpeg" width='50' height='50' class="logooo" alt="" /></a>
                     </div>
                     <div class="quick-contact">
                         <ul>
