@@ -1,6 +1,15 @@
 <?php
 $void = "javascript:void(0)";
 ?>
+
+<div id="google_translate_element"></div>
+<script type="text/javascript">// <![CDATA[
+function googleTranslateElementInit() {
+new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+// ]]></script>
+
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script>
 <!DOCTYPE html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -59,7 +68,7 @@ $void = "javascript:void(0)";
             <div class="logo-menu-sec">
                 <div class="logo-menu">
                     <div class="logo">
-                        <a itemprop="url" href="<?php echo e(url('/')); ?>" title=""><img itemprop="image" src="images/logo.jpeg" class="logooo" alt="" /></a>
+                        <a itemprop="url" href="<?php echo e(url('/')); ?>" title=""><img itemprop="image" src="images/logo.jpeg" width='50' height='50' class="logooo" alt="" /></a>
                     </div>
                     <div class="quick-contact">
                         <ul>
@@ -132,7 +141,7 @@ $void = "javascript:void(0)";
                 <div class="container">
                     <div class="responsive-logo">
                         <div class="logo">
-                            <a itemprop="url" href="<?php echo e(url('/')); ?>" title=""><img itemprop="image" src="images/logo.jpeg" alt="" /></a>
+                            <a itemprop="url" href="<?php echo e(url('/')); ?>" title=""><img itemprop="image" src="images/logo.jpeg" width='50' height='50' alt="" /></a>
                         </div>
                     </div>
                     <span class="responsive-btn"><i class="fa fa-list"></i></span>
@@ -549,4 +558,5 @@ foreach($plugins as $p)
 
 </script>
 </body>
-</html><?php /**PATH /Users/mac/repos/msc-couriers/resources/views/layout.blade.php ENDPATH**/ ?>
+</html>
+<?php /**PATH /Users/mac/repos/msc-couriers/resources/views/layout.blade.php ENDPATH**/ ?>
